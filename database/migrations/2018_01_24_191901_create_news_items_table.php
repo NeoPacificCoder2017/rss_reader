@@ -22,7 +22,7 @@ class CreateNewsItemsTable extends Migration
             $table->integer('category_id');
             $table->text('description');
             $table->datetime('pubdate');
-            $table->integer('viewed');
+            $table->integer('viewed')->default(0);
             $table->timestamps();
         });
     }

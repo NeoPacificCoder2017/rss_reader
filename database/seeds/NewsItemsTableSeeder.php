@@ -24,7 +24,7 @@ class NewsItemsTableSeeder extends Seeder
                     $date='2018-'.'01-'.rand(10,31);
                     $time='0'.rand(1,9).':'.rand(10,59).':'.rand(10,59);
                     $pubdate=$date.' '.$time;
-                    $viewed=rand(0,1);
+                    $viewed=0;
         
                     $news_item[]=[
                         'user_id'=>$userId,
