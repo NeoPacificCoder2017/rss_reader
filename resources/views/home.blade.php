@@ -13,8 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    You are logged in!
+                <a href="{{ url('/home/news/create') }}" class="btn btn-success">Add content</a>
                 </div>
             </div>
         </div>
