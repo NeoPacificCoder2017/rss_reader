@@ -311,7 +311,7 @@ class ComposerStaticInitd48c513081ccf7ce8748e2364776cfaf
     );
 
     public static $classMap = array (
-        'App\\Categories' => __DIR__ . '/../..' . '/app/Categories.php',
+        'App\\Category' => __DIR__ . '/../..' . '/app/Category.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
@@ -337,6 +337,7 @@ class ComposerStaticInitd48c513081ccf7ce8748e2364776cfaf
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
         'CategoriesTableSeeder' => __DIR__ . '/../..' . '/database/seeds/CategoriesTableSeeder.php',
+        'CategorysTableSeeder' => __DIR__ . '/../..' . '/database/seeds/CategorysTableSeeder.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/CronExpression.php',
         'Cron\\DayOfMonthField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/DayOfMonthField.php',

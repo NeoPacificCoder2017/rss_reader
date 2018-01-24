@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Categories;
+use App\Category;
 
 class CategoriesTableSeeder extends Seeder
 {
@@ -25,7 +25,7 @@ class CategoriesTableSeeder extends Seeder
         endfor;
 
         foreach($categories AS $categorie):
-            Categories::create($categorie);
+            Category::create($categorie);
         endforeach;
     }
 }
