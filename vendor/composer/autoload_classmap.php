@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Categories' => $baseDir . '/app/Categories.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
@@ -30,6 +31,7 @@ return array(
     'Carbon\\Carbon' => $vendorDir . '/nesbot/carbon/src/Carbon/Carbon.php',
     'Carbon\\CarbonInterval' => $vendorDir . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
     'Carbon\\Exceptions\\InvalidDateException' => $vendorDir . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
+    'CategoriesTableSeeder' => $baseDir . '/database/seeds/CategoriesTableSeeder.php',
     'Cron\\AbstractField' => $vendorDir . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
     'Cron\\CronExpression' => $vendorDir . '/mtdowling/cron-expression/src/Cron/CronExpression.php',
     'Cron\\DayOfMonthField' => $vendorDir . '/mtdowling/cron-expression/src/Cron/DayOfMonthField.php',
